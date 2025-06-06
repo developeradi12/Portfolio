@@ -3,8 +3,7 @@ import { useRef } from "react";
 import Card from "../components/Card"
 import { Globe } from "../components/globe";
 import CopyEmailButton from '../components/CopyEmailButton';
-import { Frameworks } from "../components/FrameWorks";
-
+import { Frameworks } from "../components/Frameworks"
 const About = ({ id }) => {
     const grid2Container = useRef();
     return (
