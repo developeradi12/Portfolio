@@ -1,12 +1,42 @@
-# React + Vite
+# 📁 Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**This portfolio** is a personal website showcasing my web development skills and projects. It is built using React and Vite with Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive and modern UI with Tailwind CSS
+- Fast development experience using Vite
+- ESLint setup for code quality
+- Clean, minimal design focused on projects and skills
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React 18, Vite, Tailwind CSS
+- **Tools:** ESLint, npm
+
+## 📦 Installation
+
+### Prerequisites
+
+- Node.js and npm installed
+- Git installed
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/developeradi12/Portfolio.git
+   
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd Portfolio
+   ```
+
+3. **Install frontend dependencies:**
+
+   ```bash
+   cd src
+   npm install
+   ```
