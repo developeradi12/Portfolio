@@ -9,7 +9,7 @@ import Footer from './section/Footer'
 
 function App() {
   return (
-    <>
+    <div className='overflow-hidden '>
       <Navbar />
       <Hero id="Home" />
       <div className='container mx-auto max-w-7xl'>
@@ -20,7 +20,7 @@ function App() {
       </div>
       <Footer />
 
-    </>
+    </div>
   )
 }
 

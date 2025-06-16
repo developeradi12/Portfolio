@@ -2,7 +2,7 @@ import { useState } from "react";
 import Project from "../components/Project";
 import { myProjects } from "../constants";
 import { motion, useMotionValue, useSpring } from "motion/react";
-const Projects = ({id}) => {
+const Projects = ({ id }) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const springX = useSpring(x, { damping: 10, stiffness: 50 });
@@ -23,11 +23,13 @@ const Projects = ({id}) => {
         <Project key={project.id} {...project} setPreview={setPreview} />
       ))}
       {preview && (
-        <motion.img
-          className="fixed top-0 left-0 z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80"
-          src={preview}
-          style={{ x: springX, y: springY }}
-        />
+        <div className="fixed top-0 left-0 z-50 pointer-events-none">
+          <motion.img
+            className="object-cover h-56 rounded-lg shadow-lg w-80"
+            src={preview}
+            style={{ x: springX, y: springY }}
+          />
+        </div>
       )}
     </section>
   );
