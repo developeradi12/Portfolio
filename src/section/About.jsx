@@ -94,16 +94,17 @@ const About = ({ id }) => {
                     </figure>
                 </div>
 
-                {/*Grid 4 */}
-                <div className='grid-special-color grid-4'>
-                    <div className='flex flex-col items-center
-                    justify-center gap-4 size-full'>
-                        <p className="text-center headtext">
-                            Do you want to start a project together?
+                {/* Grid 4 - Fun Developer Fact */}
+                <div className="grid-special-color grid-4">
+                    <div className="flex flex-col justify-center items-center text-center size-full gap-4">
+                        <p className="headtext">Quick Developer Stat 💡</p>
+                        <p className="subtext max-w-xs">
+                            I've written over <span className="text-white font-semibold">50,000+ lines</span> of code in the last year, and I still get excited about writing my next `console.log`.
                         </p>
-                        <CopyEmailButton />
+                        <p className="text-sm text-neutral-400 italic">"Code is 10% writing, 90% debugging."</p>
                     </div>
                 </div>
+
 
                 {/*Grid 5 */}
                 <div className='grid-default-color grid-5'>
@@ -114,7 +115,7 @@ const About = ({ id }) => {
                             allow me to build robust and scalable applications
                         </p>
                     </div><div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
-                       <FrameWorks/>
+                        <FrameWorks />
                     </div>
                 </div>
             </div>

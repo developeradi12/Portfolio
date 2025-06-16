@@ -259,15 +259,16 @@ export const myProjects = [
 
 
 export const experiences = [
-  {
-    title: "Secondary Education",
-    job: "Class 10 (Secondary Education)",
-    school: "Bharatiya Shiksha Mandir, Morar, Gwalior",
-    date: "2019–2020",
+   {
+    title: "Graduation",
+    job: "B.E. in Electronics & Telecommunication",
+    college: "Institute of Engineering & Technology (DAVV), Indore",
+    date: "2023–Present",
     contents: [
-      "Completed Class 10 with 84.6% under the [ STATE ] board (MADHYA PRADESH).",
-      "Built a strong foundation in mathematics, science, and logical reasoning.",
-      "Participated in school-level science exhibitions and coding competitions, developing early interest in technology.",
+      "Currently pursuing Bachelor's degree with a focus on embedded systems, VLSI design, and modern web technologies.",
+      "Developed a 3D interactive portfolio using React, Three.js, Vite, and WebAPI.",
+      "Actively enhancing skills in full-stack development (MERN stack), SystemVerilog, and AI fundamentals.",
+      "Engaged in team projects and startup development (e.g., Component Mitra)."
     ],
   },
   {
@@ -282,18 +283,17 @@ export const experiences = [
       "Developed mini-projects involving Arduino, NodeMCU, and real-time data communication.",
       "Built strong practical knowledge in signal processing, digital electronics, and communication systems.",
     ],
-  },
-  {
-    title: "Graduation",
-    job: "B.E. in Electronics & Telecommunication",
-    college: "Institute of Engineering & Technology (DAVV), Indore",
-    date: "2023–Present",
+  },  {
+    title: "Secondary Education",
+    job: "Class 10 (Secondary Education)",
+    school: "Bharatiya Shiksha Mandir, Morar, Gwalior",
+    date: "2019–2020",
     contents: [
-      "Currently pursuing Bachelor's degree with a focus on embedded systems, VLSI design, and modern web technologies.",
-      "Developed a 3D interactive portfolio using React, Three.js, Vite, and WebAPI.",
-      "Actively enhancing skills in full-stack development (MERN stack), SystemVerilog, and AI fundamentals.",
-      "Engaged in team projects and startup development (e.g., Component Mitra)."
+      "Completed Class 10 with 84.6% under the [ STATE ] board (MADHYA PRADESH).",
+      "Built a strong foundation in mathematics, science, and logical reasoning.",
+      "Participated in school-level science exhibitions and coding competitions, developing early interest in technology.",
     ],
   },
+ 
 ];
 

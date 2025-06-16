@@ -3,22 +3,23 @@ import Navbar from './section/Navbar'
 import Hero from './section/Hero'
 import About from './section/About'
 import Projects from './section/Projects'
-import  Education  from './section/Education'
+import Education from './section/Education'
 import Contact from './section/Contact'
 import Footer from './section/Footer'
 
 function App() {
   return (
     <>
-     <div className='container mx-auto max-w-7xl'>
-        <Navbar/>
-        <Hero id="Home"/>
-         <About id="About"/>
+      <Navbar />
+      <Hero id="Home" />
+      <div className='container mx-auto max-w-7xl'>
+        <About id="About" />
         <Projects id="Project" />
-        <Education id="Work"/>
+        <Education id="Work" />
         <Contact id="Contact" />
-        <Footer/>   
-     </div>
+      </div>
+      <Footer />
+
     </>
   )
 }
