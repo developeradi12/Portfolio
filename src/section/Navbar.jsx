@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 function Navigation() {
   return (
     <ul className="nav-ul">
-      {["Home", "About", "Work", "Contact", "Project"].map((item) => (
+      {["Home", "Project","Academics","About" , "Contact" ].map((item) => (
         <li className="nav-li" key={item}>
           <a href={`#${item}`} className="nav-link">
             {item}
